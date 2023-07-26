@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(212, 61, 61, 0.5);
+}
+nav{
+    height: 7vh;
+    width: 100%;
+    background-color: #131921;
+}
+.nav-belt-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.main-logo-box{
+    width: 10%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+}
+#logo{
+    height: 100%;
+    width: 80%;
+    background-image: url(../images/amazon_PNG11.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    margin-top: 2vh;
+}
+
+.main-logo-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo-link{
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: 2vh;
+    left: -0.4vw;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: end;
+
+}
+#map{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 15%;
+    border: 2px solid #fff;
+}
+.map-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#cart{
+    width: 3%;
+    height: 70%;
+    background-image: url("../images/PhotoRoom-20230726_171915.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}

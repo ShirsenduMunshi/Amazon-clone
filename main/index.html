@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/utels.css">
     <title>Amazon-clone(Part-2)</title>
 </head>
 <body>
@@ -12,16 +14,22 @@
         <header>
             <nav>
                 <div class="nav-belt-top">
-                    <div id="logo">
+                    <div class="main-logo-box">
+                        <div id="logo"></div>
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span><img src="../images/amazon_PNG11.png" alt="Logo"></span>
                             <span></span>
-                            <span>.in</span>
+                            <span></span>
+                            <span id="logo-link">.in</span>
                         </a>
                     </div>
                     <div id="map">
-                        <span>Hellow</span>
-                        <p><ion-icon name="locate-outline"></ion-icon> Select your address</p>
+                        <div class="map-icon">
+                            <ion-icon name="locate-outline"></ion-icon>
+                        </div>
+                        <div class="map-text">
+                            <span class="text-small text-grey">Hellow</span>
+                            <span>Select your address</span>
+                        </div>
                     </div>
                     <div id="search">
                         <div class="dropdown-manu-item">
@@ -79,24 +87,28 @@
                         </div>
                     </div>
                     <div id="lang">
-                        <span><img src="/images/Flag_of_India.png" alt="flag"></span>
+                        <!-- <span><img src="/images/Flag_of_India.png" alt="flag"></span> -->
                         <select name="select2" id="select2">
                             <option value="" selected><span>English</span><p>-EN</p></option>
                             <option value=""><span>Bangala</span><p>-BE</p></option>
                             <option value=""><span>HIndi</span><p>-HI</p></option>
                         </select>
-                        <!-- <a href="#">
-                            <span class="icp-nav-link-inner"><span class="nav-line-1"></span>
-                                <span class="nav-line-2"><span class="icp-nav-flag icp-nav-flag-in icp-nav-flag-lop"></span>
-                                    <div>EN</div>
-                                    <span class="nav-icon nav-arrow" style="visibility: visible;"></span>
-                                </span>
-                            </span>
-                        </a> -->
                     </div>
-                    <div id="sign-in"></div>
-                    <div id="return-order"></div>
-                    <div id="cart"></div>
+                    <div id="sign-in">
+                        <a href="#">
+                            <div>
+                                <span>Hello, sign in</span>
+                            </div>
+                            <span>Account & Lists <ion-icon name="caret-down-outline"></ion-icon></span>
+                        </a>
+                    </div>
+                    <div id="return-order">
+                        <a href="#">
+                            <span>Returns</span>
+                            <span>& Orders</span>
+                        </a>
+                    </div>
+                    <div id="cart"><span>Cart</span></div>
                 </div>
                 <div class="nav-belt-bottom"></div>
             </nav>
