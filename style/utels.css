@@ -1,7 +1,11 @@
 .text-small{
-    font-size: 16px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-grey{
     color: #ceccd3;
+}
+.text-bold{
+    font-weight: bolder;
 }

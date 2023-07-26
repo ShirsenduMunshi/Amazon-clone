@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Roboto:ital,wght@0,300;1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 header{
     background-color: rgba(212, 61, 61, 0.5);
@@ -55,15 +57,29 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
-    width: 15%;
-    border: 2px solid #fff;
+    height: 83%;
+    width: 12%;
+}
+.map-icon{
+    margin-top: 1.5vh;
+    font-size: 18px;
+    font-weight: bolder;
 }
 .map-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+#search{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-manu-item{
+    
 }
 #cart{
     width: 3%;
