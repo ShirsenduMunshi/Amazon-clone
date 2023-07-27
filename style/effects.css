@@ -1,0 +1,7 @@
+#select:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+#search-btn:hover{
+    background-color: #f3a847;
+}
