@@ -5,3 +5,10 @@
 #search-btn:hover{
     background-color: #f3a847;
 }
+.main-logo-box:hover{
+    border: 1px solid #fff;
+}
+#map:hover{
+    border: 1px solid #fff;
+    padding: 0 0.5vw;
+}
