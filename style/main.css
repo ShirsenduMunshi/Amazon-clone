@@ -1,0 +1,13 @@
+main{
+    position: relative;
+}
+#location-from{
+    height: 45vh;
+    width: 45vh;
+    background-color: red;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    left: 30vw;
+    top: 24vh;
+}

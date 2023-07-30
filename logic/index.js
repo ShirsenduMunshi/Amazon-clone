@@ -1,3 +1,11 @@
+//location from appirance
+
+var map = document.getElementById("map");
+var from = document.getElementById("location-from");
+
+map.addEventListener("click",()=>{
+    from.classList.toggle('visible')
+});
 
 //dropdown card style
 
