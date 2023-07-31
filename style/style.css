@@ -233,4 +233,31 @@ nav {
     outline: none;
     font-weight: bolder;
     cursor: pointer;
+    margin: 0 0.3vw 0 0;
+}
+#sign-in{
+    height: 100%;
+    width: 36%;
+}
+#sign-in a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+#sign-in a > div{
+    position: relative;
+    left: -2.8vh;
+    font-size: 13px;
+    font-weight: 500;
+}
+#sign-in a > span{
+    font-weight: bolder;
+    position: relative;
+    left: -0.5vh;
 }
