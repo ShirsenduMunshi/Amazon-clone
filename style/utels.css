@@ -9,16 +9,17 @@
 }
 
 .text-grey{
-    color: #ceccd3;
+    color: #ccc;
 }
 .text-bold{
     font-weight: bolder;
 }
 .border-white{
-    border: 1.5px solid transparent;
+    border: 1.99px solid transparent;
 }
 .border-white:hover{
-    border: 1.7px solid #eee;
+    border: 1.99px solid #ffffff;
+    border-radius: 2px;
 }
 .visible{
     display: flex!important;
