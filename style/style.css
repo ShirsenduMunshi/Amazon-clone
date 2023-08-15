@@ -1,7 +1,7 @@
-/* https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-celnav._CB590297325_.png */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Roboto:ital,wght@0,300;1,100&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -255,13 +255,15 @@ nav {
     left: -2.8vh;
     font-size: 13px;
     font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
 }
 #sign-in a > span{
     position: relative;
-    left: -6px;
+    left: -3px;
     top: -2px;
     color: #fff;
     font-weight: bolder;
+    font-family: 'Public Sans', sans-serif;
 }
 #return-order{
     height: 100%;
@@ -281,4 +283,17 @@ nav {
     align-items: center;
     color: #fffFFF;
     text-decoration: none;
+}
+#return-order a #orderspan{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: -8px;
+}
+#return-order a #bottom-link-text{
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
 }

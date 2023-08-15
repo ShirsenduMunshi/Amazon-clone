@@ -27,8 +27,8 @@
 }
 .icons{
     position: relative;
-    top: 0vh;
-    left: 0.99999vh;
+    top: 0.5px;
+    left: 4.5px;
     font-size: 10px;
     color: #ccc;
 }
