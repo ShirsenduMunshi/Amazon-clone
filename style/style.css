@@ -303,7 +303,6 @@ nav {
     height: 100%;
     position: relative;
     left: 2.5px;
-    border: 1px solid #eee;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,6 +315,7 @@ nav {
     color: #fff;
     height: 100%;
     width: 100%;
+    border: 1.5px solid transparent;
 }
 #count {
     display: flex;
@@ -329,8 +329,8 @@ nav {
     bottom: 15px;
     left: 21px;
     color: #e98405;
-    /* font-weight: bolder; */
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 .cart-image{
     width: 38px;
@@ -341,7 +341,7 @@ nav {
     overflow: hidden;
     position: relative;
     top: -2px;
-    left: 2px;
+    left: 0.5px;
 }
 .div2{
     height: 16%;
