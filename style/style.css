@@ -298,5 +298,9 @@ nav {
     font-size: 14px;
 }
 #cart{
+    width: 23.2%;
+    height: 100%;
+    position: relative;
+    left: 2.5px;
     border: 1px solid #eee;
 }
