@@ -3,6 +3,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ nav {
 }
 
 .nav-belt-top {
-    height: 86%;
+    height: 90%;
     width: 98%;
     margin: auto;
     display: flex;
@@ -53,7 +54,7 @@ nav {
     overflow: hidden;
     background: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-celnav._CB590297325_.png);
     background-repeat: no-repeat;
-    background-position-y: -41px;
+    background-position-y: -39px;
     background-position-x: -3px;
 }
 
@@ -64,7 +65,7 @@ nav {
     justify-content: center;
     position: absolute;
     z-index: 1;
-    height: 98%;
+    height: 92%;
     width: 97%;
     align-items: center;
     top: -2px;
@@ -73,7 +74,7 @@ nav {
 #logo-link {
     font-size: 14px;
     font-weight: bolder;
-    height: 9%;
+    height: 4%;
     width: 9.2%;
     display: flex;
     justify-content: end;
@@ -89,7 +90,7 @@ nav {
 }
 
 #map {
-    height: 100%;
+    height: 88%;
     width: 49.5%;
     display: flex;
     justify-content: center;
@@ -98,6 +99,7 @@ nav {
     position: absolute;
     left: 10.2vw;
     cursor: pointer;
+    margin-bottom: 0.6vh;
 }
 
 .map-icon {
@@ -129,9 +131,11 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 75%;
     overflow: hidden;
     border-radius: 5px;
+    position: relative;
+    top: -0.2vh;
 }
 
 .dropdown-manu-item {
@@ -201,8 +205,8 @@ nav {
     left: -1.1vh;
 }
 
-#lang{
-    height: 100%;
+#lang {
+    height: 86%;
     width: 19.8%;
     overflow: hidden;
     display: flex;
@@ -210,21 +214,22 @@ nav {
     align-items: center;
     position: relative;
     cursor: pointer;
+    margin-bottom: 0.5vh;
 }
 
-.flag-img{
+.flag-img {
     height: 30%;
     width: 28%;
     overflow: hidden;
 
 }
 
-.flag-img img{
+.flag-img img {
     height: 100%;
     width: 100%;
 }
 
-#select2{
+#select2 {
     width: 56%;
     height: fit-content;
     color: #fff;
@@ -235,11 +240,14 @@ nav {
     cursor: pointer;
     margin: 0 0.3vw 0 0;
 }
-#sign-in{
-    height: 100%;
+
+#sign-in {
+    height: 90%;
     width: 36%;
+    margin: 0 0 1vh 0;
 }
-#sign-in a{
+
+#sign-in a {
     height: 100%;
     width: 100%;
     display: flex;
@@ -250,14 +258,16 @@ nav {
     color: #fff;
     font-size: 14px;
 }
-#sign-in a > div{
+
+#sign-in a>div {
     position: relative;
     left: -2.8vh;
     font-size: 13px;
     font-weight: 500;
     font-family: 'Public Sans', sans-serif;
 }
-#sign-in a > span{
+
+#sign-in a>span {
     position: relative;
     left: -3px;
     top: -2px;
@@ -265,16 +275,20 @@ nav {
     font-weight: bolder;
     font-family: 'Public Sans', sans-serif;
 }
-#return-order{
-    height: 100%;
+
+#return-order {
+    height: 85%;
     width: 21%;
     border: 2px solid transparent;
     overflow: hidden;
+    margin-bottom: 1vh;
 }
-#return-order:hover{
+
+#return-order:hover {
     border: 1.7px solid #fff;
 }
-#return-order a{
+
+#return-order a {
     height: 100%;
     width: 100%;
     display: flex;
@@ -284,29 +298,34 @@ nav {
     color: #fffFFF;
     text-decoration: none;
 }
-#return-order a #orderspan{
+
+#return-order a #orderspan {
     font-size: 12px;
     font-weight: bold;
     position: relative;
     left: -8px;
 }
-#return-order a #bottom-link-text{
+
+#return-order a #bottom-link-text {
     font-weight: bold;
     position: relative;
     top: 0px;
     font-family: 'Public Sans', sans-serif;
     font-size: 14px;
 }
-#cart{
+
+#cart {
     width: 23.2%;
-    height: 100%;
+    height: 90%;
     position: relative;
     left: 2.5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1vh;
 }
-#cart a{
+
+#cart a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,6 +335,7 @@ nav {
     width: 100%;
     border: 1.5px solid transparent;
 }
+
 #count {
     display: flex;
     justify-content: center;
@@ -331,7 +351,8 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
-.cart-image{
+
+.cart-image {
     width: 38px;
     height: 26px;
     display: block;
@@ -342,10 +363,12 @@ nav {
     top: -2px;
     left: 0.5px;
 }
-.div2{
+
+.div2 {
     height: 16%;
 }
-.div2 span{
+
+.div2 span {
     height: fit-content;
     width: fit-content;
     display: block;
@@ -353,8 +376,8 @@ nav {
     font-size: small;
 }
 
-.nav-belt-bottom{
+.nav-belt-bottom {
     width: 100%;
-    height: 3.9vh;
+    height: 4.6vh;
     background-color: #232f3e;
 }
