@@ -512,6 +512,7 @@ main {}
 }
 
 #btn1 {
+    margin: 2px;
     border: 1px solid transparent;
     position: absolute;
     height: 32.5vh;
@@ -519,13 +520,13 @@ main {}
     left: 0;
     z-index: 1;
     background: transparent;
-    border: none;
     font-size: 37px;
     font-weight: 200;
     cursor: pointer;
 }
 
 #btn2 {
+    margin: 2px;
     border: 1px solid transparent;
     position: absolute;
     height: 32.5vh;
@@ -533,11 +534,18 @@ main {}
     right: 0;
     z-index: 1;
     background: transparent;
-    border: none;
     font-size: 37px;
     font-weight: 200;
     cursor: pointer;
 }
-.btnf:focus{
-    border-color: #000;
+#btn1:focus{
+    border-color: seagreen;
+    box-shadow: -2px -2px 2px white,2px 2px 2px white;
+}
+#btn2:focus{
+    border-color: seagreen;
+    box-shadow: -2px -2px 2px white,2px 2px 2px white;
+}
+.btnf{
+    
 }
