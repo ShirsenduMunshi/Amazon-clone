@@ -16,12 +16,12 @@ header {
 }
 
 nav {
-    height: 7vh;
+    height: 11.1vh;
     width: 100%;
 }
 
 .nav-belt-top {
-    height: 6.3vh;
+    height: 6.5vh;
     width: 98%;
     margin: auto;
     display: flex;
