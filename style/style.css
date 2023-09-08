@@ -539,13 +539,10 @@ main {}
     cursor: pointer;
 }
 #btn1:focus{
-    border-color: seagreen;
+    border-color: #0bb137;
     box-shadow: -2px -2px 2px white,2px 2px 2px white;
 }
 #btn2:focus{
-    border-color: seagreen;
+    border-color: #0bb137;
     box-shadow: -2px -2px 2px white,2px 2px 2px white;
-}
-.btnf{
-    
 }

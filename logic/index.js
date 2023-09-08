@@ -101,3 +101,17 @@ document.addEventListener("click", function (event) {
         hasBorder = false;
     }
 });
+
+//slider main image
+
+var button1 = document.getElementById('btn1');
+var button2 = document.getElementById('btn2');
+let imageSlider = document.querySelectorAll(".image-item");
+
+button1.addEventListener("click", ()=>{
+
+});
+button2.addEventListener("click", ()=>{
+
+});
+
