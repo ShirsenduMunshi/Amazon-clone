@@ -475,24 +475,72 @@ main {}
 
 .image-container {
     position: relative;
+    display: flex;
+    justify-content: center;
+
 }
 
 .image-list {
     display: flex;
+    position: relative;
 
 }
 
 .image-item {
     min-width: 100%;
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.image-item a img {
+.image-item img {
     width: 100%;
     height: 100%;
 }
-.image-butten-container{
+
+.image-item a {
+    display: flex;
+    height: 100%;
+    width: 90%;
     position: absolute;
 }
-#btn1{}
-#btn2{}
+
+.image-butten-container {
+    position: absolute;
+}
+
+#btn1 {
+    border: 1px solid transparent;
+    position: absolute;
+    height: 32.5vh;
+    width: 6.5vw;
+    left: 0;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    font-size: 37px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#btn2 {
+    border: 1px solid transparent;
+    position: absolute;
+    height: 32.5vh;
+    width: 6.5vw;
+    right: 0;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    font-size: 37px;
+    font-weight: 200;
+    cursor: pointer;
+}
+#btn1:focus{
+    border-color: black;
+}
+#btn2:focus{
+    border-color: black;
+}
