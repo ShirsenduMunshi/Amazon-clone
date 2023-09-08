@@ -18,7 +18,7 @@ header {
     z-index: 100;
 }
 
-#nav1{
+#nav1 {
     height: 6.5vh;
     width: 100%;
 }
@@ -395,7 +395,8 @@ header {
     padding-left: 11px;
     overflow: hidden;
 }
-.bottem-left{
+
+.bottem-left {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,7 +404,8 @@ header {
     height: 100%;
     cursor: pointer;
 }
-.bottem-left a{
+
+.bottem-left a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -414,31 +416,36 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
-.bottem-left a span{
+
+.bottem-left a span {
     font-size: 15px;
     font-weight: bolder;
 }
-.bottem-middle{
+
+.bottem-middle {
     width: 80%;
     height: 4vh;
     display: flex;
     align-items: center;
 }
-.bottem-middle ul{
+
+.bottem-middle ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     height: 105%;
 }
-.bottem-middle ul li{
+
+.bottem-middle ul li {
     padding: 0 1vh;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.bottem-middle ul li a{
+
+.bottem-middle ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
@@ -449,13 +456,43 @@ header {
     justify-content: center;
     align-items: center;
 }
-.bottom-right{
+
+.bottom-right {
     height: 4vh;
     width: 30vw;
     overflow: hidden;
 }
-.bottom-right a img{
+
+.bottom-right a img {
     height: 100%;
     width: 100%;
     display: block;
 }
+
+main {}
+
+.section1 {}
+
+.image-container {
+    position: relative;
+}
+
+.image-list {
+    display: flex;
+
+}
+
+.image-item {
+    min-width: 100%;
+    height: 60vh;
+}
+
+.image-item a img {
+    width: 100%;
+    height: 100%;
+}
+.image-butten-container{
+    position: absolute;
+}
+#btn1{}
+#btn2{}
