@@ -114,10 +114,9 @@ let startSlider = 0
 let endSlider = (imgItem.length - 1) * 100;
 
 sliderBtnLeft.addEventListener("click", ()=>{
-    if(startSlider <= 0){
+    if(startSlider < 0){
         startSlider = startSlider + 100;
     }
-    console.log(startSlider);
     imgItem.forEach(element => {
         element.style.transform = `translateX(${startSlider}%)`;
     });
@@ -127,7 +126,6 @@ sliderBtnRight.addEventListener("click", ()=>{
     if(startSlider >= -endSlider+100){
         startSlider = startSlider - 100;
     }
-    console.log(startSlider);
     imgItem.forEach(element => {
         element.style.transform = `translateX(${startSlider}%)`;
     });

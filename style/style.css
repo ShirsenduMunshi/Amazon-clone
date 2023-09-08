@@ -477,7 +477,7 @@ main {}
     position: relative;
     display: flex;
     justify-content: center;
-
+    overflow: hidden;
 }
 
 .image-list {
@@ -494,6 +494,7 @@ main {}
     align-items: center;
     position: relative;
     /* transform: translateX(-300%); */
+    transition: transform 0.3s;
 }
 
 .image-item img {
