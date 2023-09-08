@@ -538,9 +538,6 @@ main {}
     font-weight: 200;
     cursor: pointer;
 }
-#btn1:focus{
-    border-color: black;
-}
-#btn2:focus{
-    border-color: black;
+.btnf:focus{
+    border-color: #000;
 }
