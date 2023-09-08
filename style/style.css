@@ -468,10 +468,10 @@ header {
     width: 100%;
     display: block;
 }
-
+/* 
 main {}
 
-.section1 {}
+.section1 {} */
 
 .image-container {
     position: relative;
@@ -493,7 +493,6 @@ main {}
     justify-content: center;
     align-items: center;
     position: relative;
-    /* transform: translateX(-300%); */
     transition: transform 0.3s;
 }
 
