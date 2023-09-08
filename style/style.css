@@ -421,11 +421,13 @@ nav {
     justify-content: center;
     list-style: none;
     height: 100%;
-    margin-top: 0.5vh;
 }
 .bottem-middle ul li{
-    padding: 0.5vh 1vh;
-    height: 109%;
+    padding: 0 1vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bottem-middle ul li a{
     text-decoration: none;
@@ -434,5 +436,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     height: 100%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
