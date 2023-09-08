@@ -13,10 +13,13 @@
 
 header {
     background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-nav {
-    height: 11.1vh;
+#nav1{
+    height: 6.5vh;
     width: 100%;
 }
 
@@ -27,6 +30,9 @@ nav {
     display: flex;
     align-items: center;
     overflow: hidden;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
 }
 
 .nav-top-left {
@@ -80,7 +86,9 @@ nav {
     justify-content: end;
     align-items: center;
     padding: 0px 0.5vh 0.5vh 0vh;
-    position: fixed;
+    position: relative;
+    left: 6.2vh;
+
 }
 
 #location-btn {
@@ -203,6 +211,7 @@ nav {
     align-items: center;
     position: relative;
     left: -1.1vh;
+    margin-top: 0.5vh;
 }
 
 #lang {
