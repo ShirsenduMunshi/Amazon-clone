@@ -493,6 +493,7 @@ main {}
     justify-content: center;
     align-items: center;
     position: relative;
+    /* transform: translateX(-300%); */
 }
 
 .image-item img {

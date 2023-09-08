@@ -104,14 +104,32 @@ document.addEventListener("click", function (event) {
 
 //slider main image
 
-var button1 = document.getElementById('btn1');
-var button2 = document.getElementById('btn2');
-let imageSlider = document.querySelectorAll(".image-item");
+let sliderBtnLeft = document.getElementById("btn1")
+let sliderBtnRight = document.getElementById("btn2")
+var imgItem = document.querySelectorAll(".image-item");
 
-button1.addEventListener("click", ()=>{
+console.log(imgItem.length - 1);
 
+let startSlider = 0
+let endSlider = (imgItem.length - 1) * 100;
+
+sliderBtnLeft.addEventListener("click", ()=>{
+    if(startSlider <= 0){
+        startSlider = startSlider + 100;
+    }
+    console.log(startSlider);
+    imgItem.forEach(element => {
+        element.style.transform = `translateX(${startSlider}%)`;
+    });
 });
-button2.addEventListener("click", ()=>{
 
+sliderBtnRight.addEventListener("click", ()=>{
+    if(startSlider >= -endSlider+100){
+        startSlider = startSlider - 100;
+    }
+    console.log(startSlider);
+    imgItem.forEach(element => {
+        element.style.transform = `translateX(${startSlider}%)`;
+    });
 });
-
+// console.log(imageSlider)
